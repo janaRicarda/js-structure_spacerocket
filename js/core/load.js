@@ -1,4 +1,4 @@
-import { getRocket } from "./rocket.js";
+import { getRocket } from "../core/rocket.js";
 
 export function loadPayload(satellite) {
   const rocket = getRocket();
